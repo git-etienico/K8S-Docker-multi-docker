@@ -6,7 +6,7 @@ services:
 
 before_install:
   #- docker build -t nicolasetiernne/multi-docker -f ./client/Dockerfile.dev ./client
-  - docker build -t nicolasetiernne/docker-react -f ./client/Dockerfile.dev ./client
+  - docker build -t git-etienico/docker-react -f ./client/Dockerfile.dev ./client
   
 
 
